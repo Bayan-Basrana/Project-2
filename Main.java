@@ -12,6 +12,7 @@ public class Main {
     Car car1 = new Car("001", route1, 5);
     Car car2 = new Car("002", route2, 0);
     Car car3= new Car("003",route2,2);
+    //passengers
     ArrayList<Passenger> passengers = new ArrayList<>();
 
     Passenger subscribers = new SubscribersPassengers("Bayan", "1255");
@@ -40,7 +41,7 @@ public class Main {
 
 
 
-        // display information
+        // display information for all passengers
         for (Passenger p :passengers) {
             p.displayInfo();
             System.out.println();}
