@@ -35,6 +35,7 @@ public class Car {
 public void capacity () throws Exception{
         if(maxCapacity==0){
             throw new Exception("car reach max capacity , for car code: " + getCode());
-        }}
+        }
+maxCapacity--;}
 
 }
